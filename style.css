@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p,
+span {
+  color: hsl(216, 15%, 52%);
+}
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+/* ------------Container----------- */
+.container {
+  position: relative;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1rem;
+  width: 19rem;
+  border-radius: 10px;
+}
+
+.container h3 {
+  padding: 0 0 1rem 0;
+}
+
+.container strong,
+h3 {
+  color: hsl(178, 100%, 50%);
+}
+
+/* -------------Card----------- */
+.card {
+  height: 19rem;
+  border-radius: 10px;
+  position: relative;
+}
+.availability {
+  padding: 1.5rem 0;
+}
+
+.availability span {
+  padding-left: 5.5rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: hsl(178, 100%, 50%);
+}
+/* ------------image Section---------- */
+.nft-image {
+  height: 19rem;
+  border-radius: 10px;
+}
+.view-image {
+  display: none;
+  background-color: hsl(178, 100%, 50%);
+}
+.avator-image {
+  height: 2.5rem;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.nft-image:hover {
+  background-color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+/* ----------Footer----------- */
+footer {
+  display: flex;
+  margin-top: 1rem;
+}
+footer p {
+  padding: 0.8rem 0 0.5rem 1rem;
+}
